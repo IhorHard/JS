@@ -20,11 +20,45 @@ var item_7 = String(item_7);
 var item_7_type = item_7;
 // console.log("item_7==", typeof item_7_type)
 
+
+ 
+
 var age_1 = 10;
 var age_2 = 18;
 var age_3 = 60;
 
-if
+// Создать if в котором будите проверять значение переменной age_1
+let age_1 = 25;
 
+if (age_1 >= 18) 
 
+// Если age_1 < age_2, вывести в консоль “You don’t have access cause your age is ” + age_1 + “ It’s less then ”
 
+let age_1 = 33;
+let age_2 = 55;
+
+if (age_1 < age_2) {
+  console.log("You don’t have access cause your age is " + age_1 + " It’s less then " + age_2);
+}
+
+// Если age_1 >=  age_2 и age_1 <  age_3, вывести в консоль “Welcome  !”
+
+let age_1 = 33;
+let age_2 = 30;
+let age_3 = 45;
+
+if (age_1 >= age_2 && age_1 < age_3) {
+  console.log("Welcome!");
+}
+
+// Если age_1  > age_3, вывести в консоль “Keep calm and look Culture channel”.
+//  33. Иначе выводите “Technical work”.
+
+let age_1 = 2;
+let age_3 = 28;
+
+if (age_1 > age_3) {
+  console.log("Keep calm and look Culture channel");
+} else {
+  console.log("Technical work");
+}
